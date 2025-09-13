@@ -120,7 +120,7 @@ def lab_to_lch(lab_color):
     return L, C, h
 
 # Contoh penggunaan fungsi untuk gambar pertama (seperti sebelumnya)
-img1_path = 'D:/Back Up Lenovo/Latihan/Warna/sampel/payung std.jpg'
+img1_path = 'sampel/payung std.jpg'
 img1 = cv2.imread(img1_path, cv2.IMREAD_UNCHANGED)
 dominant_color1 = get_dominant_color(img1)
 dominant_color_rgb1 = bgr_to_rgb(dominant_color1)
@@ -141,7 +141,7 @@ print('C* value (Image 1):', C1)
 print('h* value (Image 1):', h1)
 
 # Contoh untuk gambar kedua
-img2_path = 'D:/Back Up Lenovo/Latihan/Warna/sampel/payung spl.jpg'
+img2_path = 'sampel/payung spl.jpg'
 img2 = cv2.imread(img2_path, cv2.IMREAD_UNCHANGED)
 dominant_color2 = get_dominant_color(img2)
 dominant_color_rgb2 = bgr_to_rgb(dominant_color2)
@@ -259,4 +259,5 @@ autolabel(rects4, axes[1], cmyk_color2)
 
 # Menampilkan plot
 plt.tight_layout()
+
 plt.show()
