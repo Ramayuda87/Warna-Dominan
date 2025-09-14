@@ -14,6 +14,10 @@
    - img2_path = "jalur/ke/gambar2.jpg"
 3. Jalankan program python warna_dominan.py
 
+# Tampilan Hasil
+<img width="1161" height="407" alt="tampilan 1" src="https://github.com/user-attachments/assets/b5e906f7-51df-4769-ba94-76affb823195" />
+<img width="1189" height="590" alt="tampilan 2" src="https://github.com/user-attachments/assets/59b4f0ac-2f2a-4765-8380-14697eab9c2f" />
+
 # NOTE untuk hasil maksimal
 1. Gambar atau foto diambil dengan jarak, intensitas cahaya , dan kamera (device) yang sama.
 2. Bila tidak memungkinkan, obyek yang akan diambil gambar atau fotonya didekatkan dan diambil gambarnya bersamaan dalam satu gambar atau foto.
